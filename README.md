@@ -8,4 +8,4 @@ This repository contains my solutions for the **JavaScript Basics Coding Challen
 ## How to Run
 Clone the repository:
    ```sh
-   https://github.com/tranwork/javascript-coding-challenge-1.git
+ https://github.com/tranwork/javascript-coding-challenge-1.git
