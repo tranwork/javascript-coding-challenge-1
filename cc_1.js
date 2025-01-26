@@ -17,3 +17,22 @@ accountBalance *= 1.05; // Interest applied
 console.log("Updated Balance after Interest:", accountBalance);
 accountBalance /= 2; // Half balance
 console.log("Updated Balance after Halving:", accountBalance);
+
+// Task 4: Customer Messaging
+let customerName = "Jenny";
+let welcomeMessage = "Hello, " + customerName + "! Welcome to our store.";
+console.log(welcomeMessage);
+
+// Task 5: Access Control
+let isLoggedIn = true;
+if (isLoggedIn) {
+    console.log("Access Granted");
+} else {
+    console.log("Access Denied");
+}
+
+// Logical operations
+let hasPermission = true;
+console.log("Can Access System:", isLoggedIn && hasPermission);
+console.log("Needs Login or Permission:", isLoggedIn || hasPermission);
+console.log("Access Revoked:", !isLoggedIn);
